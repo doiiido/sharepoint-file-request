@@ -1,14 +1,9 @@
 #!/bin/bash
 #
-# Run as: ./sharePoint_upload.sh filename sitename libraryname
+# Run as: ./sharePoint_upload.sh Filepath URL Name Surname
 #
-# Example: ./sharePoint_upload.sh test.jpg my-site/my-sub-site documents
+# Example: ./sharePoint_upload.sh ./test.jpg my-tenent/:f:/s/my-site/unique_id jose maria
 #
-# Step by step SP REST auth reference here:
-# http://paulryan.com.au/2014/spo-remote-authentication-rest/
-#
-# Relevant MS REST documentation
-# https://dev.office.com/sharepoint/docs/sp-add-ins/working-with-folders-and-files-with-rest
 
 
 DROPSITEURL="https://vedraapoio.sharepoint.com/:f:/s/Tecnologia/EhAYe5yy3rJDtM5dTjWQTU8BbsUNSaRfWlqYxHAPcP-gDg"
