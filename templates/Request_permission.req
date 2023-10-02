@@ -1,0 +1,12 @@
+curl --request GET \
+  --url '<SITE_URL>_api/v2.0/shares/u!<SHARE_ID>/permission' \
+  --header 'Accept: */*' \
+  --header 'Accept-Encoding: gzip, deflate, br' \
+  --header 'Accept-Language: pt-BR,pt;q=0.9' \
+  --header 'Authorization: Badger <BADGER_TOKEN>' \
+  --header 'Collectspperfmetrics: SPSQLQueryCount' \
+  --header 'Content-Type: application/json;odata=verbose' \
+  --header 'Ignorecookieauthentication: t' \
+  --header 'Prefer: redeemsharinglink' \
+  --header 'Referer: <REAL_URL>' \
+  --cookie <COOKIE>

@@ -1,0 +1,13 @@
+curl --request POST \
+  --url '<SITE_URL>_api/v2.1/shares/u!<SHARE_ID>/driveItem:/<NAME>_<SURNAME>_<FILENAME>:/oneDrive.createUploadSession' \
+  --header 'Accept: application/json' \
+  --header 'Accept-Encoding: gzip, deflate, br' \
+  --header 'Accept-Language: pt-BR,pt;q=0.9' \
+  --header 'Authorization: badger <USER_TOKEN>' \
+  --header 'Content-Length: 44' \
+  --header 'Content-Type: application/json' \
+  --header 'Ignorecookieauthentication: t' \
+  --header 'Origin: <TENANT_URL>' \
+  --header 'Referer: <REAL_URL>' \
+  --cookie <COOKIE> \
+  --data '{"item":{"@name.conflictBehavior":"rename"}}'

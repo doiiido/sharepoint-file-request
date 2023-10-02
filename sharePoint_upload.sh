@@ -10,6 +10,12 @@
 # Relevant MS REST documentation
 # https://dev.office.com/sharepoint/docs/sp-add-ins/working-with-folders-and-files-with-rest
 
+
+DROPSITEURL="https://vedraapoio.sharepoint.com/:f:/s/Tecnologia/EhAYe5yy3rJDtM5dTjWQTU8BbsUNSaRfWlqYxHAPcP-gDg"
+NAME="jose"
+SURNAME="maria"
+FILETOUPLOAD="./test.jpg"
+
 SITENAME="${2}"
 
 # XML dom parsing from:
