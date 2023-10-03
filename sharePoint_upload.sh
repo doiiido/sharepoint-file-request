@@ -6,7 +6,7 @@
 #
 
 
-DROPSITEURL="https://vedraapoio.sharepoint.com/:f:/s/Tecnologia/EhAYe5yy3rJDtM5dTjWQTU8BbsUNSaRfWlqYxHAPcP-gDg"
+DROPSITEURL="URL"
 NAME="jose"
 SURNAME="maria"
 FILETOUPLOAD="./test.jpg"
