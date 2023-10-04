@@ -1,11 +1,12 @@
 curl --request POST \
   --url https://api.badgerp.svc.ms/v1.0/tokenexchange \
-  --header 'Accept: */*' \
-  --header 'Accept-Encoding: gzip, deflate, br' \
-  --header 'Accept-Language: pt-BR,pt;q=0.9' \
-  --header 'Authorization: Badger <BADGER_TOKEN>' \
-  --header 'Content-Length: 41' \
-  --header 'Content-Type: application/json' \
-  --header 'Origin: <TENANT_URL>' \
-  --header 'Referer: <TENANT_URL>/' \
-  --data '{"givenName":"<NAME>","familyName":"<SURNAME>"}'
+  --header "Accept: */*" \
+  --header "Accept-Encoding: gzip, deflate, br" \
+  --header "Accept-Language: pt-BR,pt;q=0.9" \
+  --header "Authorization: Badger <BADGER_TOKEN>" \
+  --header "Content-Type: application/json" \
+  --header "Origin: <TENANT_URL>" \
+  --header "Referer: <TENANT_URL>/" \
+  --data '{"givenName":"<NAME>","familyName":"<SURNAME>"}' \
+  --cookie-jar cookie.txt \
+  --compressed

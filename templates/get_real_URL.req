@@ -1,8 +1,9 @@
 curl --request GET \
   --url <DROP_SITE_URL> \
-  --header 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
-  --header 'Accept-Encoding: gzip, deflate, br' \
-  --header 'Accept-Language: pt-BR,pt;q=0.9' \
-  --header 'Service-Worker-Navigation-Preload: true' \
-  --header 'Upgrade-Insecure-Requests: 1' \
-  --cookie <COOKIE>
+  --header "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7" \
+  --header "Accept-Encoding: gzip, deflate, br" \
+  --header "Accept-Language: pt-BR,pt;q=0.9" \
+  --header "Service-Worker-Navigation-Preload: true" \
+  --header "Upgrade-Insecure-Requests: 1" \
+  --cookie-jar cookie.txt \
+  --compressed

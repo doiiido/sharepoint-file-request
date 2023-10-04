@@ -1,12 +1,12 @@
 curl --request PUT \
-  --url '<UPLOAD_URL>' \
-  --header 'Accept: application/json' \
-  --header 'Accept-Encoding: gzip, deflate, br' \
-  --header 'Accept-Language: pt-BR,pt;q=0.9' \
-  --header 'Content-Length: 18' \
-  --header 'Content-Range: bytes 0-17/18' \
-  --header 'Origin: <TENANT_URL>' \
-  --header 'Prefer: synchronousmetadata' \
-  --header 'Referer: <REAL_URL>' \
-  --cookie <COOKIE> \
-  --data 'Payload do arquivo'
+  --url "<UPLOAD_URL>" \
+  --header "Accept: application/json" \
+  --header "Accept-Encoding: gzip, deflate, br" \
+  --header "Accept-Language: pt-BR,pt;q=0.9" \
+  --header "Content-Range: bytes <CONTENT_RANGE>" \
+  --header "Origin: <TENANT_URL>" \
+  --header "Prefer: synchronousmetadata" \
+  --header "Referer: <REAL_URL>" \
+  --upload-file <PAYLOAD> \
+  --cookie-jar cookie.txt \
+  --compressed
